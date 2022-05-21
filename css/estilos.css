@@ -68,8 +68,17 @@
     font-size: 2rem;
     color: white;
     text-decoration: none;
-    font-family: 'Bebas Neue';
+    font-family: 'Bebas Neue';    background-image: linear-gradient(to right, black 50%, rgb(255, 196, 3) 50%);
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: left;
+    transition: background-position 0.3s ease;
 
+}
+
+.navbar:hover {
+    background-position: right;
+    color: rgb(0, 0, 0);
 }
 
 .container__nav div a {
