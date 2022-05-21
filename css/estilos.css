@@ -390,6 +390,14 @@ footer {
 
 }
 
+.contenedor__productos img {
+    transition: all 300ms;
+}
+
+.contenedor__productos img:hover {
+    transform: scale(1,02);
+}
+
 .productos__foto {
     width: 20rem;
     height: 12rem;
@@ -406,6 +414,16 @@ footer {
     text-decoration: none;
     color: white;
     font-size: 1.5rem;
+    background-image: linear-gradient(to right, black 50%, rgb(255, 196, 3) 50%);
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: left;
+    transition: background-position 0.3s ease;
+}
+
+.interes__productos:hover {
+    background-position: right;
+    color: black;
 }
 
 /* CONTACTO */
