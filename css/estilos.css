@@ -260,7 +260,7 @@ footer {
 }
 
 .nosotros__video {
-    padding: 50px;
+    padding: 1%;
 }
 
 .container__nosotros__imagenes {
@@ -286,6 +286,12 @@ footer {
 .nosotros__mapa {
     text-align: center;
     padding: 1%;
+    width: 95%;
+}
+
+.nosotros__mapa iframe {
+    width: 60%;
+    height: 25rem;
 }
 
 /* SERVICIOS */
