@@ -6,13 +6,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Inicio</title>
         <link rel="shortcut icon" href="./assets/imagenes/2872601.png">
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
         <link rel="stylesheet" href="./css/estilos.css">
     </head>
     <body>
         <div class="index__grid">
             <header class="header__index">
                 <div class="cabecera__logo">
-                    <a href="#"><img src="./assets/imagenes/logo1-modified.png" alt="logo" width="300"></a>
+                    <a href="#"><img src="./assets/imagenes/logo1-modified.png" alt="logo" class="logo"></a>
                 </div>
                 <div class="container__header">
                     <nav class="navegacion">
@@ -26,20 +28,60 @@
             </header>
             <main class="main__index">
                 <section>
+                    <!-- <div>
+                        <h1>últimos lanzamientos</h1>
+                    </div>
+                    <div class="contenedor__main">
+                        <div class="contenedor__main__1">
+                            <img src="./assets/imagenes/PANDA.jpg"  class="img1">
+                        </div>
                         <div>
-                            <h1>últimos lanzamientos</h1>
+                            <img src="./assets/imagenes/OREO.jpg"class="img2">
                         </div>
-                        <div class="contenedor__main">
-                            <div class="contenedor__main__1">
-                                <img src="./assets/imagenes/PANDA.jpg"  class="img1">
-                            </div>
-                            <div>
-                                <img src="./assets/imagenes/OREO.jpg"class="img2">
-                            </div>
-                            <div>
-                                <img src="./assets/imagenes/J1 UB.webp" class="img3">  
-                            </div>
+                        <div>
+                            <img src="./assets/imagenes/J1 UB.webp" class="img3">  
                         </div>
+                    </div> -->
+                    <div class="container d-flex justify-content-center align-items-center">
+                        <div id="carouselExampleDark" class="carousel carousel-dark slide w-75" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="5000">
+                                <img src="./assets/imagenes/PANDA.jpg" class="d-block w-100 opacity-100" alt="panda">
+                                <div class="carousel-caption d-none d-md-block text-white">
+                                    <h5>Dunk Low Panda</h5>
+                                    <p>Un modelo que nunca va a pasar de moda.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="5000">
+                                <img src="./assets/imagenes/OREO.jpg" class="d-block w-100 opacity-100" alt="oreo">
+                                <div class="carousel-caption d-none d-md-block text-white">
+                                    <h5>Jordan 4 Retro White Oreo</h5>
+                                    <p>Una silueta que esta está viniendo con mucho HYPE.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="5000">
+                                <img src="./assets/imagenes/j1 UB.jpg" class="d-block w-100 opacity-100" alt="ub">
+                                <div class="carousel-caption d-none d-md-block text-white">
+                                    <h5>Jordan 1 Retro High Off-White University Blue</h5>
+                                    <p>Un par que está al alcance de unos pocos, diseñado por el gran Virgil Abloh.</p>
+                                </div>
+                            </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>    
+                    </div>
                 </section>
             </main>
             <article class="article__index">
@@ -102,6 +144,7 @@
                     </nav>        
                 </div>  
             </footer>
-        </div>   
+        </div> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>  
     </body>
 </html>

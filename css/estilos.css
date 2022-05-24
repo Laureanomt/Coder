@@ -9,7 +9,7 @@
 
 /* index grid */
 
-.index__grid {
+/* .index__grid {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
@@ -38,7 +38,7 @@
 
 .footer__index {
     grid-area: footer;
-}
+} */
 
 
 /* index header */
@@ -47,6 +47,11 @@
 .cabecera__logo {
     background-image: url(../assets/imagenes/COLLAGE.jpg);
     text-align: center;
+}
+
+.logo{
+    width: 10%;
+    height: 10%;
 }
 .container__header {
     display: flex;
@@ -212,7 +217,7 @@ footer {
 
 
 
-.nosotros__grid {
+/* .nosotros__grid {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
@@ -231,7 +236,7 @@ footer {
 
 .footer__nosotros {
     grid-area: footer;
-}
+} */
 
 .titular__nosotros {
     background-image: url(../assets/imagenes/COLLAGE.jpg);
@@ -285,7 +290,7 @@ footer {
 
 /* SERVICIOS */
 
-.servicios__grid {
+/* .servicios__grid {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
@@ -304,7 +309,7 @@ footer {
 
 .footer__servicios {
     grid-area: footer;
-}
+} */
 
 .servicios__div {
     text-align: center;
@@ -357,7 +362,7 @@ footer {
 
 /* PRODUCTOS */
 
-.productos__grid {
+/* .productos__grid {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
@@ -377,7 +382,7 @@ footer {
 
 .footer__productos {
     grid-area: footer;
-}
+} */
 
 .contenedor__productos {
     display: grid;
@@ -428,7 +433,7 @@ footer {
 
 /* CONTACTO */
 
-.contacto__grid {
+/* .contacto__grid {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
@@ -447,7 +452,7 @@ footer {
 
 .footer__contacto {
     grid-area: footer;
-}
+} */
 
 .contacto__formulario {
     background-color: black;
