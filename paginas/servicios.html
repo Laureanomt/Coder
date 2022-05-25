@@ -6,13 +6,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Servicios</title>
         <link rel="shortcut icon" href="../assets/imagenes/2872601.png">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
         <link rel="stylesheet" href="../css/estilos.css">
     </head>
     <body>
         <div class="servicios__grid">
             <header class="header__servicios">
                 <div class="cabecera__logo">
-                    <a href="#"><img src="../assets/imagenes/logo1-modified.png" alt="logo" width="300"></a>
+                    <a href="#"><img src="../assets/imagenes/logo1-modified.png" alt="logo" class="logo"></a>
                 </div>
                 <div class="container__header">
                     <nav class="navegacion">
@@ -25,24 +26,62 @@
                 </div>
             </header>
             <main class="main__servicios">
-            <section>
-                <div class="servicios__div">
-                    <h2 class="titulo__servicios">Autenticación de fakes</h2>
-                    <p class="servicios__text">Para que podamos ayudarte a corroborar si ese par que tanto quieres comprar es auténtico y no sea un fake, te solicitamos que las fotos que nos envíes, sigan éstas instrucciones.</p>
-                    <img src="../assets/imagenes/photo-instruction.jpeg" alt="instrucciones" class="servicios__img">
+            <!-- <main class="main__servicios">
+                <section>
+                    <div class="servicios__div">
+                        <h2 class="titulo__servicios">Autenticación de fakes</h2>
+                        <p class="servicios__text">Para que podamos ayudarte a corroborar si ese par que tanto quieres comprar es auténtico y no sea un fake, te solicitamos que las fotos que nos envíes, sigan éstas instrucciones.</p>
+                        <img src="../assets/imagenes/photo-instruction.jpeg" alt="instrucciones" class="servicios__img">
+                        <nav class="interes">
+                            <a href="contacto.html" class="servicios__interes">Estoy interesado</a>
+                        </nav>
+                    </div>
+                    <div class="servicios__div">
+                        <h3 class="titulo__servicios">Restauración de Sneakers</h3>
+                        <p class="servicios__text">Tenemos un grupo especializado de personas que se dedican a esto hace años, así que si tu zapatilla ha sufrido cualquier accidente el cuál no sepas como limpiarlo o simplemente te da miedo hacerlo por el hecho de arruinar más el par, no dudes en contactarnos para que lo hagamos por ti. </p>
+                        <img src="../assets/imagenes/RESTAURACION.jpg" alt="restauración" width="500" class="servicios__img">
+                        <nav class="interes">
+                            <a href="contacto.html" class="servicios__interes">Estoy interesado</a>
+                        </nav>   
+                    </div>
+                </section> -->
+                <div class="container-fluid d-flex text-align-center justify-content-center bg-black w-100" >
+                    <div id="carouselExampleDark" class="carousel carousel-dark slide w-75" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active text-white" data-bs-interval="6000">
+                            <img src="../assets/imagenes/photo-instruction.jpeg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block text-white">
+                                <h5>Autentificación de Sneakers</h5>
+                                <p>Te ayudamos a corroborar que ese par que estás a punto de comprar no sea un fake.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="6000">
+                            <img src="../assets/imagenes/RESTAURACION.jpg" class="d-block w-100 opacity-150" alt="...">
+                            <div class="carousel-caption d-none d-md-block text-black fw-semibold">
+                                <h5>Restauración de Sneakers</h5>
+                                <p>Si tu zapatilla ha sufrido cualquier accidente el cuál no sepas como limpiarlo o simplemente te da miedo hacerlo por el hecho de arruinar más el par, no dudes en contactarnos para que lo hagamos por ti.</p>
+                            </div>
+                        </div>
+                    </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="bg-black text-center pt-4">                
                     <nav class="interes">
-                        <a href="contacto.html" class="servicios__interes">Estoy interesado</a>
+                    <a href="contacto.html" class="servicios__interes">Estoy interesado</a>
                     </nav>
                 </div>
-                <div class="servicios__div">
-                    <h3 class="titulo__servicios">Restauración de Sneakers</h3>
-                    <p class="servicios__text">Tenemos un grupo especializado de personas que se dedican a esto hace años, así que si tu zapatilla ha sufrido cualquier accidente el cuál no sepas como limpiarlo o simplemente te da miedo hacerlo por el hecho de arruinar más el par, no dudes en contactarnos para que lo hagamos por ti. </p>
-                    <img src="../assets/imagenes/RESTAURACION.jpg" alt="restauración" width="500" class="servicios__img">
-                    <nav class="interes">
-                        <a href="contacto.html" class="servicios__interes">Estoy interesado</a>
-                    </nav>   
-                </div>
-            </section>
             </main>
             <footer class="footer__servicios">
                 <div class="contenedor__pie">
@@ -61,5 +100,6 @@
                 </div>  
             </footer>
         </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script> 
     </body>
 </html>

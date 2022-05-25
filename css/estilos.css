@@ -317,6 +317,9 @@ footer {
     grid-area: footer;
 } */
 
+.main__servicios {
+    background-color: black;
+}
 .servicios__div {
     text-align: center;
     background-color: black;
@@ -348,6 +351,8 @@ footer {
 .interes {
     padding-bottom: 2rem;
     font-family: 'Bebas Neue';
+    text-align: center;
+    padding-top: 1%;
 }
 
 .servicios__interes {
@@ -390,6 +395,7 @@ footer {
     grid-area: footer;
 } */
 
+
 .contenedor__productos {
     display: grid;
     grid-template-columns: (4 , 1fr);
@@ -410,7 +416,7 @@ footer {
 }
 
 .productos__foto {
-    width: 20rem;
+    width: 18rem;
     height: 12rem;
 }
 
@@ -419,6 +425,7 @@ footer {
     font-size: 2rem;
     padding-top: 2%;
     font-family: 'Bebas Neue';
+    text-align: center;
 }
 
 .interes__productos {
