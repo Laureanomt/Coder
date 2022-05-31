@@ -2,7 +2,15 @@
 @import "header";
 @import "footer";
 @import "articleaside";
+@import "interes";
+@import "nosotros";
+@import "productos";
 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 // INDEX 
 
 .main__index {
@@ -10,34 +18,3 @@
 }
 
 
-// NOSOTROS
-
-main {background-color: black;
-    section {
-        h1 {
-            background-image: url(../assets/imagenes/COLLAGE.jpg);
-            color: white;
-            text-transform: uppercase;
-            text-align: center;
-            font-size: 5rem;
-            padding: 1%;
-            font-family: 'Bebas Neue';
-        }
-        p {
-            color: white;
-            font-family: 'Heebo', sans-serif;
-            text-align: center;
-            padding: 1%;
-        }
-        div {
-            div {text-align: center;
-                iframe { height: 60vh;
-                        width: 80vh;}
-            }
-        }
-    }
-}
-
-.nosotros__mapa {
-    text-align: center;
-}

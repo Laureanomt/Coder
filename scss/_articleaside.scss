@@ -10,24 +10,27 @@ article {
             padding-top: 2vh;
         }
     }
+    div {
+        .section__encabezados {
+            font-size: 2.5rem;
+            padding-top: 5vh;
+        }
     }
-
-.section__encabezados {
-    font-size: 2.5rem;
-    padding-top: 5vh;
-}
-
-.section__texts {
-font-family: 'Heebo', sans-serif;
-font-size: 1rem;
-padding: 1vh;
-}
-
-.articulo__img {
-height: 20%;
-width: 45%;
-padding: 2vh;
-}
+    div {
+        .section__texts {
+            font-family: 'Heebo', sans-serif;
+            font-size: 1rem;
+            padding: 1vh;
+            }            
+    }
+    div {
+        img {
+            height: 20%;
+            width: 45%;
+            padding: 2vh;
+        }
+    }
+    }
 
 aside {
     text-align: center;

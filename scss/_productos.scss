@@ -1,0 +1,36 @@
+.main__productos {
+    div {
+        h1 {
+            background-image: url(../assets/imagenes/COLLAGE.jpg);
+            color: white;
+
+            text-align: center;
+            font-size: 5rem;
+            padding: 1%;
+            font-family: 'Bebas Neue';
+        }
+    }
+}
+
+.contenedor__productos {
+    div {
+        .titulares__productos {
+            color: white;
+            font-size: 2rem;
+            padding-top: 2%;
+            font-family: 'Bebas Neue';
+            text-align: center; 
+        }
+    }
+    div { text-align: center;
+        .productos__foto {
+            filter: grayscale(1);
+            height: 30vh;
+            width: 35vh;
+            &:hover {
+                filter:none;
+                
+            }
+        }
+    }
+}

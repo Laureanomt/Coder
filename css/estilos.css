@@ -62,7 +62,7 @@ header div nav a:hover {
 }
 
 .logo {
-  height: 10%;
+  height: 22.9vh;
   width: 10%;
 }
 
@@ -89,18 +89,18 @@ article div h2 {
   padding-top: 2vh;
 }
 
-.section__encabezados {
+article div .section__encabezados {
   font-size: 2.5rem;
   padding-top: 5vh;
 }
 
-.section__texts {
+article div .section__texts {
   font-family: 'Heebo', sans-serif;
   font-size: 1rem;
   padding: 1vh;
 }
 
-.articulo__img {
+article div img {
   height: 20%;
   width: 45%;
   padding: 2vh;
@@ -111,8 +111,29 @@ aside {
   background-color: black;
 }
 
-.main__index {
-  background-image: url(../assets/imagenes/COLLAGE.jpg);
+.interes {
+  padding-bottom: 2rem;
+  font-family: 'Bebas Neue';
+  text-align: center;
+  padding-top: 1%;
+}
+
+.interes .servicios__interes {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, black), color-stop(50%, #ffc403));
+  background-image: linear-gradient(to right, black 50%, #ffc403 50%);
+  background-size: 200%;
+  background-repeat: no-repeat;
+  background-position: left;
+  -webkit-transition: background-position 0.3s ease;
+  transition: background-position 0.3s ease;
+}
+
+.interes .servicios__interes:hover {
+  background-position: right;
+  color: black;
 }
 
 main {
@@ -147,5 +168,49 @@ main section div div iframe {
 
 .nosotros__mapa {
   text-align: center;
+}
+
+.main__productos div h1 {
+  background-image: url(../assets/imagenes/COLLAGE.jpg);
+  color: white;
+  text-align: center;
+  font-size: 5rem;
+  padding: 1%;
+  font-family: 'Bebas Neue';
+}
+
+.contenedor__productos div .titulares__productos {
+  color: white;
+  font-size: 2rem;
+  padding-top: 2%;
+  font-family: 'Bebas Neue';
+  text-align: center;
+}
+
+.contenedor__productos div {
+  text-align: center;
+}
+
+.contenedor__productos div .productos__foto {
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+  height: 30vh;
+  width: 35vh;
+}
+
+.contenedor__productos div .productos__foto:hover {
+  -webkit-filter: none;
+          filter: none;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main__index {
+  background-image: url(../assets/imagenes/COLLAGE.jpg);
 }
 /*# sourceMappingURL=estilos.css.map */
