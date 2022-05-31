@@ -114,4 +114,38 @@ aside {
 .main__index {
   background-image: url(../assets/imagenes/COLLAGE.jpg);
 }
+
+main {
+  background-color: black;
+}
+
+main section h1 {
+  background-image: url(../assets/imagenes/COLLAGE.jpg);
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 5rem;
+  padding: 1%;
+  font-family: 'Bebas Neue';
+}
+
+main section p {
+  color: white;
+  font-family: 'Heebo', sans-serif;
+  text-align: center;
+  padding: 1%;
+}
+
+main section div div {
+  text-align: center;
+}
+
+main section div div iframe {
+  height: 60vh;
+  width: 80vh;
+}
+
+.nosotros__mapa {
+  text-align: center;
+}
 /*# sourceMappingURL=estilos.css.map */
