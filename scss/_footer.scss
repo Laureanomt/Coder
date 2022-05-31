@@ -1,0 +1,19 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+
+.logo {
+    height: 10%;
+    width: 10%;
+}
+
+footer {
+    text-align: center;
+    background-image: url(../assets/imagenes/COLLAGE.jpg);
+    div {
+        nav {
+            a{
+                font-size: 2rem;
+                color: white;
+            }
+        }
+    }
+}

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Heebo:wght@300&display=swap');
+
+
+.logo {
+    height: 10%;
+    width: 10%;
+}
+
+.navbar {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+header {
+    background-image: url(../assets/imagenes/COLLAGE.jpg);
+    text-align: center;
+    div {
+        
+        flex-direction: row;
+        background-color: black;
+        nav {display: flex;
+            flex-direction: row;
+            text-align: center;
+            justify-content: space-around;
+            a {text-align: center;
+                justify-content: center;
+                color: white;
+                text-decoration: none;
+                font-family: 'Bebas Neue';    background-image: linear-gradient(to right, black 50%, rgb(255, 196, 3) 50%);
+                background-size: 200%;
+                background-repeat: no-repeat;
+                background-position: left;
+                transition: background-position 0.3s ease;
+            }
+            a:hover{    background-position: right;
+            color: rgb(0, 0, 0);            }
+        }
+    }
+
+}
+
