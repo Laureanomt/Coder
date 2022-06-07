@@ -8,9 +8,10 @@
 
 .navbar {
     text-decoration: none;
-    color: white;
     font-size: 2rem;
-    text-align: center;
+    @include coloralign(white,center);
+    // text-align: center;
+    // color: white;
 }
 
 header {
@@ -19,14 +20,15 @@ header {
     div {
         
         flex-direction: row;
-        background-color: black;
+        background-color: map-get($mapa-colores, negro);
         nav {display: flex;
             flex-direction: row;
             text-align: center;
             justify-content: space-around;
-            a {text-align: center;
+            a { @include coloralign(white,center);
                 justify-content: center;
-                color: white;
+                // color: white;
+                // text-align: center;
                 text-decoration: none;
                 font-family: 'Bebas Neue';    background-image: linear-gradient(to right, black 50%, rgb(255, 196, 3) 50%);
                 background-size: 200%;

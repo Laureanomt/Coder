@@ -8,8 +8,8 @@
 
 .navbar {
   text-decoration: none;
-  color: white;
   font-size: 2rem;
+  color: white;
   text-align: center;
 }
 
@@ -40,11 +40,11 @@ header div nav {
 }
 
 header div nav a {
+  color: white;
   text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  color: white;
   text-decoration: none;
   font-family: 'Bebas Neue';
   background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, black), color-stop(50%, #ffc403));
@@ -62,7 +62,7 @@ header div nav a:hover {
 }
 
 .logo {
-  height: 22.9vh;
+  height: 10%;
   width: 10%;
 }
 
@@ -77,10 +77,10 @@ footer div nav a {
 }
 
 article {
-  text-align: center;
   background-color: black;
-  color: white;
   font-family: 'Bebas Neue';
+  color: white;
+  text-align: center;
 }
 
 article div h2 {
@@ -142,8 +142,8 @@ main {
 
 main section h1 {
   background-image: url(../assets/imagenes/COLLAGE.jpg);
-  color: white;
   text-transform: uppercase;
+  color: white;
   text-align: center;
   font-size: 5rem;
   padding: 1%;
@@ -152,8 +152,8 @@ main section h1 {
 
 main section p {
   color: white;
-  font-family: 'Heebo', sans-serif;
   text-align: center;
+  font-family: 'Heebo', sans-serif;
   padding: 1%;
 }
 
@@ -181,10 +181,10 @@ main section div div iframe {
 
 .contenedor__productos div .titulares__productos {
   color: white;
+  text-align: center;
   font-size: 2rem;
   padding-top: 2%;
   font-family: 'Bebas Neue';
-  text-align: center;
 }
 
 .contenedor__productos div {

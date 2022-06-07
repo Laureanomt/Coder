@@ -1,0 +1,4 @@
+@mixin coloralign($valor-color,$valor-text-align) {
+    color: $valor-color;
+    text-align: $valor-text-align;
+}

@@ -1,18 +1,18 @@
-main {background-color: black;
+main {background-color: map-get($mapa-colores, negro);
     section {
         h1 {
             background-image: url(../assets/imagenes/COLLAGE.jpg);
-            color: white;
             text-transform: uppercase;
-            text-align: center;
+            @include coloralign(white,center);
+            // color: white;
+            // text-align: center;
             font-size: 5rem;
             padding: 1%;
             font-family: 'Bebas Neue';
         }
         p {
-            color: white;
+            @include coloralign(white,center);
             font-family: 'Heebo', sans-serif;
-            text-align: center;
             padding: 1%;
         }
         div {
